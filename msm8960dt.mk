@@ -57,7 +57,9 @@ PRODUCT_PACKAGES += \
     init.qcom.sh \
     init.qcom.wifi.sh
 
-PRODUCT_PACKAGES += mkfs.f2fs_arm
+PRODUCT_PACKAGES += \
+    dtbTool \
+    mkfs.f2fs_arm
 
 # Audio configuration
 PRODUCT_COPY_FILES += \

@@ -42,7 +42,6 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01600000
 
 DTB:
 	make -C $(TARGET_KERNEL_SOURCE) ARCH=arm CROSS_COMPILE="arm-eabi-" O=$(KERNEL_OUT) dtbs
-	cat $(KERNEL_OUT)/arch/arm/boot/*.dtb > $(OUT)/msm8960dt.dtb
 
 TARGET_KERNEL_MODULES += DTB
 
