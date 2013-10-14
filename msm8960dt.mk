@@ -43,6 +43,9 @@ PRODUCT_PACKAGES += \
     WCNSS_qcom_wlan_nv_regulatory_0x6.bin
 
 # Ramdisk
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/etc/init.rc:root/init.rc
+
 PRODUCT_PACKAGES += \
     fstab.qcom \
     init.qcom.rc \
