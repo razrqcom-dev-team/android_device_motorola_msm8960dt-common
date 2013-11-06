@@ -211,6 +211,8 @@ static const struct android_id_info android_ids[] = {
     { "mot_atvc",	AID_MOT_ATVC, },
     { "sprint_extension", AID_SPRINT_EXTENSION, },
     { "mot_dbvc",	AID_MOT_DBVC, },
+    { "theme_man", AID_THEMEMAN },
+    { "audit",      AID_AUDIT, },
 };
 
 #define android_id_count \
@@ -240,8 +242,8 @@ static const struct fs_path_config android_dirs[] = {
     { 00771, AID_SHELL,  AID_SHELL,  0, "data/local" },
     { 01771, AID_SYSTEM, AID_MISC,   0, "data/misc" },
     { 00770, AID_DHCP,   AID_DHCP,   0, "data/misc/dhcp" },
-    { 00775, AID_ROOT,   AID_SDCARD_RW, 0, "data/media" },
-    { 00775, AID_ROOT,   AID_SDCARD_RW, 0, "data/media/Music" },
+    { 00775, AID_MEDIA_RW, AID_MEDIA_RW, 0, "data/media" },
+    { 00775, AID_MEDIA_RW, AID_MEDIA_RW, 0, "data/media/Music" },
     { 00771, AID_SYSTEM, AID_SYSTEM, 0, "data" },
     { 00750, AID_ROOT,   AID_SHELL,  0, "sbin" },
     { 00755, AID_ROOT,   AID_ROOT,   0, "system/addon.d" },
@@ -273,7 +275,7 @@ static const struct fs_path_config android_files[] = {
     { 00555, AID_ROOT,      AID_ROOT,      0, "system/etc/rc.*" },
     { 00755, AID_ROOT,      AID_ROOT,      0, "system/addon.d/*" },
     { 00644, AID_SYSTEM,    AID_SYSTEM,    0, "data/app/*" },
-    { 00644, AID_ROOT,      AID_SDCARD_RW, 0, "data/media/*" },
+    { 00644, AID_MEDIA_RW,  AID_MEDIA_RW,  0, "data/media/*" },
     { 00644, AID_SYSTEM,    AID_SYSTEM,    0, "data/app-private/*" },
     { 00644, AID_APP,       AID_APP,       0, "data/data/*" },
     { 00755, AID_ROOT,      AID_ROOT,      0, "system/bin/ping" },
