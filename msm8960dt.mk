@@ -79,11 +79,14 @@ PRODUCT_COPY_FILES += \
 
 # GPS
 PRODUCT_PACKAGES += \
+    gps.conf \
+    libgps.utils \
+    libloc_core \
+    libloc_eng \
     gps.msm8960
 
 # Gps/location secuity configuration file
 PRODUCT_COPY_FILES += \
-    device/motorola/msm8960dt-common/gps/gps.conf:system/etc/gps.conf \
     device/motorola/msm8960dt-common/config/sec_config:system/etc/sec_config
 
 # Media config

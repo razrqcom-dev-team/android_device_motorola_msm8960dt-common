@@ -59,6 +59,7 @@ lib/libimage-jpeg-dec-omx-comp.so
 lib/libimage-jpeg-enc-omx-comp.so
 lib/libimage-omx-common.so
 lib/libloc_api_v02.so
+lib/libloc_ds_api.so
 lib/libmdmcutback.so
 lib/libmercury.so
 lib/libmm-abl.so
