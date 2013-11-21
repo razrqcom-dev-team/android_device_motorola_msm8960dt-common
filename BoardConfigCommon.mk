@@ -57,9 +57,6 @@ COMMON_GLOBAL_CFLAGS += -DQCOM_BSP
 BOARD_EGL_CFG := $(LOCAL_PATH)/config/egl.cfg
 TARGET_USES_QCOM_BSP := true
 
-# QCOM enhanced A/V
-TARGET_ENABLE_QC_AV_ENHANCEMENTS := true
-
 # Assert
 TARGET_OTA_ASSERT_DEVICE := ghost,xt1053,ghost_retail,xt1055,ghost_usc,xt1056,ghost_sprint,xt1058,ghost_att,ghost_rcica,ghost,xt1060,ghost_verizon,xt1080,obake,obake_verizon,xt1080m,obake-maxx,obake-maxx_verizon,xt1080c
 
