@@ -49,10 +49,6 @@ void init_globals(void)
 {
         // init the mutex
         pthread_mutex_init(&g_lock, NULL);
-
-        memset(&g_battery, 0, sizeof(g_battery));
-        memset(&g_notification, 0, sizeof(g_notification));
-
         g_lcd_brightness = -1;
 }
 
