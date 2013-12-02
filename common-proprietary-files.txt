@@ -237,7 +237,11 @@ etc/firmware/mspversion.txt
 etc/firmware/mspversion_p0.txt
 etc/firmware/mspversion_p1.txt
 etc/firmware/mspversion_p2.txt
-etc/firmware/synaptics-s2316-13090502-1649cd-falcon.tdat
+etc/firmware/synaptics-s3402-13040101-164656-ghost.tdat
+etc/firmware/synaptics-s3402-13040101-164656-ghost-p1a.tdat
+etc/firmware/synaptics-s3402-13042202-164656-obake.tdat
+etc/firmware/synaptics-s3402b-13050201-167746-ghost.tdat
+etc/firmware/synaptics-s3402b-13071701-16cadd-obake.tdat
 etc/firmware/tfa9890.config
 etc/firmware/tfa9890.eq
 etc/firmware/tfa9890.speaker
